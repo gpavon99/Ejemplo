@@ -1,0 +1,203 @@
+    *{
+        margin: 0px;
+    }
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px; 
+    }
+    .contenedor{
+        width: 100%;
+        height: 624px; 
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-size: cover;
+        
+    }
+    .Contenido{
+        width: 64%;
+        
+        display:inline-block;
+        vertical-align: top;
+    
+        }
+    .logo{
+        padding-top: 4%;
+        padding-left: 13%;
+        display:inline-block;
+        vertical-align: top;
+    }
+    .texto{
+        width: 50%;
+        padding-top: 7%;
+        padding-left: 20%;
+    }
+    .texto p{
+        padding-top: 1.5%;
+        color: hsl(0, 36%, 70%);
+    }
+    .correo{
+        width: 50%;
+        padding-left: 20%;
+        position: relative;
+    }
+    .correo img{
+        position: absolute;
+        padding: 15px;
+        padding-right: 44px;
+        padding-left: 44px;
+        border-radius: 25px;
+        outline: rgba(0, 0, 0, 0);
+        background-color:hsl(0, 66%, 88%);
+        border-color: transparent;
+        right: -12px;
+        bottom: 20px;
+    }
+    input{
+        width: 95%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-color:hsl(0, 36%, 70%);
+        outline: rgba(0, 0, 0, 0);
+    }
+    input:focus{
+        border-color: hsl(0, 93%, 68%);
+    }
+
+    .Imagen{
+        width: 35%;
+        height: 100%;
+        text-align: center;
+        float:right;
+    }
+    .Imagen img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .Imagen1{
+        visibility: hidden;
+        display: none;
+    }
+    .correo img:hover{
+        background-color: hsl(0, 59%, 75%) ; 
+        cursor: pointer;
+    }
+    h1{
+    font-size: 60px; 
+        color: hsl(0, 36%, 70%);
+    
+    }
+    h2{
+        font-size: 63px;
+    }
+    span{
+    color: hsl(0, 36%, 70%);
+    padding-left: 22%;
+    }
+    .fas{
+        position: absolute;
+        color: red;
+        right: 92px;
+        font-size: 25px;
+        bottom: 32px;
+        visibility: hidden;
+        display: none;
+        
+    }
+@media screen and (max-width: 500px){
+   *{
+       padding: 0px;
+   }
+   body{
+       font-size: 12px;
+   }
+    .contenedor{
+        width: 100%;
+        height: 100%; 
+    }
+    .Contenido{
+        width: 100%;
+        height: 100%;
+        background-image: url(./images/bg-pattern-desktop.svg);
+        background-size: cover;
+        
+        }
+   .logo{
+    padding-left: 15%;
+    float: inline-start;
+   }
+    .texto{
+       width: 80%;
+       padding-left: 40px;
+        padding-top: 10%;
+        
+        text-align: center;
+     }
+    .texto p{
+        padding-top: 1%;
+        
+    }
+    input{
+        width: 95%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 13px;
+        
+    }
+    input:focus{
+        border-color: hsl(0, 93%, 68%);
+    }
+    
+    .Imagen1{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+    }
+    .Imagen{ 
+    visibility: hidden;
+    display: none;
+    }
+    .Imagen1{
+        visibility: visible;
+        display: block; 
+        padding-top: 5%;
+    }
+    .Imagen1 img::after{
+        width: 100%;
+        height: 100%;
+        
+    }
+         
+    .correo{
+        width: 61%;
+        padding-left: 15%;
+        position: relative;
+    }
+    .correo img{
+        position: absolute;
+        padding: 14px;
+        padding-right: 24px;
+        padding-left: 26px;
+        border-radius: 25px;
+        background-color:hsl(0, 66%, 88%);
+        right: -20px;
+        bottom: 20px;
+    }
+    button:hover{
+       background-color: hsl(0, 59%, 75%) ; 
+       cursor: pointer;
+    }
+    h1{
+       font-size: 30px; 
+        color: hsl(0, 36%, 70%);
+    }
+    h2{
+        font-size: 33px;
+    }
+   span{
+    color: hsl(0, 36%, 70%);
+    padding-left: 19%;   
+   }
+  }
+  
